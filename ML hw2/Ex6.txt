@@ -1,0 +1,5 @@
+In the original space, the model gave a very high error  because it tried to fit a flat surface to non-linear data, ignoring the x1*x2 term.
+
+In the transformed space, we added x1*x2 as a new third feature. Because of this, the model successfully found the correct parameters (3, 2, 1, 1) and the MSE dropped.
+This small remaining error is perfectly normal, as it exactly matches the variance of the random noise that we intentionally added at the beginning.
+
