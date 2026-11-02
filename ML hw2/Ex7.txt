@@ -1,0 +1,5 @@
+In the original space , the classes form a complex, non-linearly separable pattern bounded by the curves (x2)**2​−(x1)**2​=0.
+No straight line can separate the blue points from the red points.
+
+However, in the transformed space, the features are mapped to φ(x)=[(x1)**2​,(x2)**2​] T . The non-linear boundaries unfold into a simple straight line equation ( φ2​−φ1​=0). 
+As seen in the second plot, the data is now perfectly linearly separable, allowing a simple linear classifier to distinguish between the two classes.
