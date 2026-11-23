@@ -20,12 +20,10 @@ This project explores hyperspectral data through **spectral unmixing** and **pix
 ```text
 .
 ├── notebook.ipynb          # Main Jupyter Notebook with code, plots, and written analysis
-├── report.pdf              # Exported PDF version of the report (16 pages)
-├── data/                   # Dataset folder (optional / check size limits before uploading)
+├── report.pdf              # Exported PDF version of the report
 └── README.md               # This file
 ```
 
-*(Rename `notebook.ipynb` and `report.pdf` to match your actual file names.)*
 
 ## Setup & How to Run
 
